@@ -14,7 +14,7 @@ interface data {
 }
 
 
-const page = () => {
+const Page = () => {
     const [data, setData] = useState<data[]>([]); //set to hold fetch data
     const [loading, setLoading] = useState(false); //loading state
    
@@ -39,7 +39,7 @@ const page = () => {
       <Navbar/>
       {loading? (
         <div className='flex items-center justify-center h-screen'>
-        <h1 className='text-2xl text-gray-500'>"Loading....."</h1>
+        <h1 className='text-2xl text-gray-500'>&quot;Loading.....&quot;</h1>
         </div>
       ) : (
         <div className=' pt-[50px] '> 
@@ -79,4 +79,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

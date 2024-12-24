@@ -10,7 +10,7 @@ interface data {
 
 
 
-const page = async () => {
+const Page = async () => {
   const response = await fetch("https://simple-books-api.glitch.me/books/")
   const data : data[] = await response.json();
  
@@ -39,7 +39,7 @@ const page = async () => {
   )
 }
 
-export default page
+export default Page
 
 
 

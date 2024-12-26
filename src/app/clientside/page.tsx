@@ -44,7 +44,7 @@ const Page = () => {
       ) : (
         <div className=' pt-[50px] '> 
             <h1 className='text-center tracking-wide text-3xl font-bold text-[#24282ccc] '>CLIENT SIDE DATA FETCHING</h1>
-            <div className='grid ml-16  mt-[40px] lg:grid-cols-3 sm:girl-cols-1'>
+            <div className='grid lg:ml-16 mx-10 mt-[40px] lg:grid-cols-3 sm:girl-cols-1'>
             {data.map ((product, index) => (
                 <div key={index} className='bg-white p-4 mb-8 w-[300px] ml-4 hover:shadow-2xl hover:scale-100 rounded-[10px] shadow-lg ' >
                     <div className='h-[200px]'><Image

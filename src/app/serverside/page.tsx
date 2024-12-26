@@ -26,7 +26,7 @@ const Page = async () => {
           <div key={index} className='bg-white p-6 rounded-lg shadow-lg hover:shadow-xl ease-in-out transition duration-300'>
             <h3 className='text-xl font-semibold mb-4'>{todo.name}</h3>
             <p className='text-gray-700 mb-2'>Type: {todo.type}</p>
-            <p className='text-gray-500 mb-2'>{todo.available ? "Available" : "Not Available" } </p>
+            <p className={`${todo.available === true ? "text-green-900" : "text-red-800"} font-semibold`}>{todo.available === true ? "Available" : "Not Available" } </p>
              <button className='bg-blue-500 text-white px-4 py-2 rounded-lg mt-4 w-full hover:bg-blue-600 transition'>Learn More</button>
              </div>
         ))}

@@ -10,8 +10,8 @@ export default function Home() {
         <div className=" justify-center items-center flex  h-screen">
 
         <div className="">
-          <h1 className="font-bold flex justify-center text-[28px]">Welcome to the Assignment!</h1>
-          <p className="w-[450px] text-gray-700 mt-4 sm:line-clamp-3 "> In this project, we have demonstrated how to fetch data from an API.This assignment showcases two different approaches to fetching data: client-side and server-side.</p>
+          <h1 className="font-bold flex justify-center text-black text-[28px]">Welcome to the Assignment!</h1>
+          <p className="lg:w-[450px] text-gray-700 mt-4 w-[400px]"> In this project, we have demonstrated how to fetch data from an API.This assignment showcases two different approaches to fetching data: client-side and server-side.</p>
       
         <div className="flex justify-center items-center">
           
